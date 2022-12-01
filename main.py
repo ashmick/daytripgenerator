@@ -92,11 +92,6 @@ def confirm_random_choices():
                             print("I'm not sure what you want anymore. Let's start over!")
                             confirmation=False
 
-# def confirm_dest():
-#     user_choice()
-#     print(f' Would you like to go to {user_choice()}?')
-    
-# confirm_dest()
 
 destination=random_destination()  
 print(destination) 
@@ -111,15 +106,3 @@ entertainment= random_entertainment()
 print(entertainment)
    
 confirmation=confirm_random_choices()
-
-   
-# while choice=="n":
-    
-#         del rand_choice
-#         continue
-#     print("No worries, I have other options left")
-    
-
-# user_choice ()
-
-
